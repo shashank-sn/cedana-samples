@@ -9,11 +9,11 @@ You can also use the cedana/cedana-samples docker container to run the arbitrary
 Highly recommend using the requirements.txt to set up a virtualenv. 
 
 ``` sh
-python3 -m env venv 
+python3 -m venv env 
 ```
 
 ``` sh
-source env/bin/active && pip install -r requirements.txt 
+source env/bin/activate && pip install -r requirements.txt 
 ```
 
 
